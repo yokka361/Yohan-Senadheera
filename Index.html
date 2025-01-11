@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yohan Senadheera</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: black;
+            color: white;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        /* Navigation */
+        nav {
+            background: linear-gradient(90deg, #000000, #0d47a1);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffcc00;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: orange;
+            text-shadow: 0 0 8px orange;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 100px 0;
+            background: radial-gradient(circle, #000000, #001f3f);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Orbitron', sans-serif;
+            color: #ffcc00;
+            text-shadow: 0 0 8px #ffcc00;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        .cta-buttons {
+            margin-top: 20px;
+        }
+
+        .cta-buttons a {
+            padding: 10px 20px;
+            margin: 0 10px;
+            color: #fff;
+            border: 2px solid #ffcc00;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .cta-buttons a:hover {
+            background: #ffcc00;
+            color: #000;
+            box-shadow: 0 0 10px #ffcc00;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: #ffcc00;
+            text-shadow: 0 0 5px orange;
+        }
+
+        /* About Section */
+        .about {
+            background: #001f3f;
+            color: #fff;
+        }
+
+        .about p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Experience Section */
+        .experience {
+            background: black;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline-item {
+            background: #001f3f;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ffcc00;
+            transition: 0.3s;
+        }
+
+        .timeline-item:hover {
+            box-shadow: 0 0 10px #ffcc00;
+        }
+
+        /* Projects Section */
+        .projects {
+            background: #001f3f;
+        }
+
+        .project-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background: #000;
+            border: 1px solid orange;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            box-shadow: 0 0 10px orange;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: black;
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        .contact a {
+            color: #ffcc00;
+            text-shadow: 0 0 5px orange;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            padding: 20px 0;
+            text-align: center;
+            color: #ffcc00;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Yohan Senadheera</h1>
+        <p>Second Year Computer Engineering Undergraduate at University of Peradeniya</p>
+        <div class="cta-buttons">
+            <a href="#">Download CV</a>
+            <a href="#">View LinkedIn</a>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                I am a passionate computer engineering student with experience in programming, networking, and solving
+                technical challenges. I enjoy working on projects that push the limits of my abilities and contribute
+                positively to my team.
+            </p>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Senior Member</h3>
+                    <p>University Explorers' Club | 2024-Present</p>
+                    <p>Managed technical events and contributed to club activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>MONA DASHBOARD</h3>
+                    <p>Role: Developer</p>
+                    <p>Created an intuitive dashboard for managing team tasks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Email: <a href="mailto:yohansenadheera@gmail.com">yohansenadheera@gmail.com</a></p>
+            <p>LinkedIn: <a href="#">LinkedIn Profile</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Yohan Senadheera. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
