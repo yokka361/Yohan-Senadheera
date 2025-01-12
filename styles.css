@@ -1,112 +1,176 @@
 /* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Default font */
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, .section-title {
+    font-family: 'Orbitron', sans-serif; /* Tech font for headings */
 }
 
 /* Navbar Styles */
 .navbar {
-  background: #003f7f;
-  color: #fff;
-  padding: 1rem 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+    background-color: #212121;
+    z-index: 1000;
 }
 
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
+.navbar-nav .nav-link:hover {
+    color: #ff9800;
 }
 
-.nav-links li {
-  margin: 0 15px;
+/* Hero Section */
+
+
+#hero {
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('bg1.png') no-repeat center center; /* Center the background */
+    background-size: cover; /* Ensures the image spans the entire section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+/* Hero Content Styling */
+#hero img {
+    border: 3px solid #ffd700; /* Gold border */
+    box-shadow: 0 0 15px #ffd700; /* Glow effect */
 }
 
-/* Header Styles */
-.header {
-  background: linear-gradient(135deg, #003f7f, #1e90ff);
-  color: #fff;
-  padding: 5rem 0;
-  margin-top: 60px;
+#hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffd700;
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#hero p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
-.header-text {
-  max-width: 50%;
+
+/* Optional: Gradient Overlay for Better Visibility */
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 0; /* Ensures it's behind the content */
 }
 
-.header-photo img {
-  border-radius: 50%;
-  max-width: 200px;
-  border: 4px solid #fff;
+/* Content Above Overlay */
+#hero > div {
+    position: relative;
+    z-index: 1; /* Places the content above the overlay */
 }
 
-.highlight {
-  color: #ffc107;
-}
 
-.btn-primary {
-  background: #ffc107;
-  color: #003f7f;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-/* Section Styles */
-.section {
-  padding: 3rem 0;
-  text-align: center;
+/* Section Card Styles */
+.section-card {
+    padding: 40px 0;
+    margin-bottom: 40px;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-h2 {
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
-  color: #003f7f;
+.card.custom-card {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
-.project-card {
-  background: #f4f4f4;
-  padding: 1rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  text-align: left;
+.card.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer Styles */
-.footer {
-  background: #003f7f;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
+h2.section-title {
+    font-size: 28px;
+    color: #ff9800;
+    text-shadow: 0 0 10px rgba(255, 152, 0, 0.8);
+    margin-bottom: 20px;
+}
+#competitions {
+    background: #000; /* Pure black background */
+}
+
+#competitions .card {
+    background: #111; /* Slightly lighter than black for contrast */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#competitions .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.4); /* Glow effect */
+}
+
+#competitions h2 {
+        color: #ff9800;
+    text-shadow: 0 0 10px rgba(255, 152, 0, 0.8);/* Glow effect for the heading */
+}
+
+
+/* Contact Links Styles */
+.contact-link {
+    color: #ff9800;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #ffeb3b;
+}
+
+/* Footer */
+footer {
+    background-color: #212121;
+    padding: 20px 0;
+    color: #bbb;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Animations */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 152, 0, 1);
+    }
+}
+
+h1, h2.section-title {
+    animation: glow 1.5s infinite alternate;
 }
