@@ -2,226 +2,810 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yohan Harsha Senadheera - Personal Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Orbitron:wght@400;500&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yohan Senadheera - Computer Engineering Undergraduate | Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
-
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Yohan Harsha Senadheera</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Y.Senadheera</span>
+            </div>
+            <ul class="navbar-nav" id="nav-menu">
+                <li><a href="#hero" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#achievements" class="nav-link"><i class="fas fa-trophy"></i> Achievements</a></li>
+                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </nav>
 
-<section id="hero" class="d-flex justify-content-center align-items-center text-center text-light">
-    <div>
-        <img src="your-image.jpg" alt="Yohan Harsha" class="img-fluid rounded-circle mb-3"
-            style="width: 150px; height: 150px; object-fit: cover;">
-        <h1 class="display-3 fw-bold">Yohan Harsha Senadheera</h1>
-        <p class="lead">Third-Year Computer Engineering Undergraduate</p>
-    </div>
-</section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="highlight">Yohan</span> Senadheera
+                </h1>
+                <p class="hero-subtitle">Third-Year Computer Engineering Undergraduate</p>
+                <p class="hero-university">University of Peradeniya | E/20/361</p>
+                <div class="hero-description">
+                    <p>🚀 Passionate about <strong>IoT</strong>, <strong>AI</strong>, <strong>Mobile
+                            Development</strong> & <strong>Robotics</strong></p>
+                    <p>💡 Building the future through innovative technology solutions</p>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Leadership Roles</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fas fa-rocket"></i> Explore Projects
+                    </a>
+                    <a href="https://www.linkedin.com/in/yohan-senadheera/" target="_blank" class="btn-secondary">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-    <!-- About Me Section -->
-    <section id="about" class="section-card">
-        <div class="container text-center">
-            <div class="card custom-card">
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
                 <h2 class="section-title">About Me</h2>
-                <p>I am a third-year Computer Engineering undergraduate with a strong foundation in programming,
-                    problem-solving, and software development. Passionate about technology, I aim to contribute to
-                    innovative projects while honing my skills in C, Java, Python, and React.js.</p>
+                <div class="section-subtitle">Passionate Engineer & Innovation Enthusiast</div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>
+                            I'm <strong>Yohan Senadheera</strong>, a dedicated third-year Computer Engineering
+                            undergraduate at the
+                            <strong>University of Peradeniya</strong> with a strong foundation in programming,
+                            problem-solving,
+                            and innovative software development.
+                        </p>
+                        <p>
+                            My journey spans across <strong>mobile app development</strong>, <strong>IoT
+                                systems</strong>,
+                            <strong>cloud architecture</strong>, and <strong>AI-powered solutions</strong>. I believe in
+                            creating
+                            technology that bridges the gap between human needs and digital possibilities.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <h3>What Drives Me</h3>
+                        <div class="highlight-grid">
+                            <div class="highlight-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <h4>Innovation</h4>
+                                <p>Creating cutting-edge solutions that solve real-world problems</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-users"></i>
+                                <h4>Leadership</h4>
+                                <p>Leading teams and mentoring peers in technical and organizational roles</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-code"></i>
+                                <h4>Technology</h4>
+                                <p>Mastering modern technologies from mobile apps to cloud computing</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-globe"></i>
+                                <h4>Impact</h4>
+                                <p>Building products that make a meaningful difference in people's lives</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-sidebar">
+                    <div class="quick-facts">
+                        <h3>Quick Facts</h3>
+                        <div class="fact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Colombo, Sri Lanka</span>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-university"></i>
+                            <span>University of Peradeniya</span>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-id-card"></i>
+                            <span>E/20/361</span>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Final Year Student</span>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Photography & Travel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-subtitle">Innovative Solutions & Real-World Applications</div>
+            </div>
+
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <div class="project-card featured">
+                    <div class="project-badge">Featured Project</div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-icon">🤖</div>
+                            <div class="project-title-section">
+                                <h3>P-E-BO Desk Companion</h3>
+                                <span class="project-date">Dec 2024 - Jul 2025</span>
+                            </div>
+                            <div class="project-status">Completed</div>
+                        </div>
+
+                        <p class="project-description">
+                            Revolutionary emotionally intelligent desk assistant robot that recognizes user emotions,
+                            tracks faces, and provides contextual AI-powered companionship through natural voice
+                            interactions.
+                        </p>
+
+                        <div class="project-highlights">
+                            <div class="highlight-tag">95% Emotion Recognition</div>
+                            <div class="highlight-tag">
+                                < 5s Response Time</div>
+                                    <div class="highlight-tag">Voice Interaction</div>
+                                    <div class="highlight-tag">Real-time Face Tracking</div>
+                                    <div class="highlight-tag">Inter-device Communication</div>
+                            </div>
+
+                            <div class="project-role">
+                                <h4>My Comprehensive Role:</h4>
+                                <ul>
+                                    <li><strong>Complete Mobile App Development:</strong> Built entire React Native
+                                        application from scratch</li>
+                                    <li><strong>Website Development:</strong> Created comprehensive project
+                                        documentation site</li>
+                                    <li><strong>Cloud Architecture:</strong> Designed AWS & Firebase integration for
+                                        real-time communication</li>
+                                    <li><strong>Hardware Collaboration:</strong> Supported 3D design, printing, and
+                                        hardware integration</li>
+                                    <li><strong>System Integration:</strong> Connected mobile app to robot via cloud
+                                        services</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-stack">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">React Native</span>
+                                    <span class="tech-tag">Firebase</span>
+                                    <span class="tech-tag">AWS Lambda</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Raspberry Pi</span>
+                                    <span class="tech-tag">OpenCV</span>
+                                    <span class="tech-tag">Gemini API</span>
+                                    <span class="tech-tag">AWS S3</span>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://cepdnaclk.github.io/e20-3yp-P-E-BO-Desk-Companion/" target="_blank"
+                                    class="btn-project">
+                                    <i class="fas fa-external-link-alt"></i> Live Documentation
+                                </a>
+                                <a href="#" class="btn-project-secondary">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Projects -->
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🏠</div>
+                            <div class="project-title-section">
+                                <h3>Smart Home Energy Monitoring</h3>
+                                <span class="project-date">Feb 2025 - Apr 2025</span>
+                            </div>
+                        </div>
+                        <p>IoT-enabled energy monitoring system with real-time mobile alerts and remote appliance
+                            control.</p>
+                        <div class="project-role">
+                            <strong>My Role:</strong> Mobile app development, Firebase integration, real-time
+                            notifications
+                        </div>
+                        <div class="tech-stack">
+                            <div class="tech-tags">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">ESP32</span>
+                                <span class="tech-tag">IoT Sensors</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">📊</div>
+                            <div class="project-title-section">
+                                <h3>MONA Dashboard</h3>
+                                <span class="project-date">Apr 2024 - Nov 2024</span>
+                            </div>
+                        </div>
+                        <p>Real-time production monitoring system for 24 manufacturing machines with live analytics and
+                            goal tracking.</p>
+                        <div class="project-role">
+                            <strong>My Role:</strong> Production progress tracking, GitHub repository management, team
+                            coordination
+                        </div>
+                        <div class="tech-stack">
+                            <div class="tech-tags">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Data Visualization</span>
+                                <span class="tech-tag">GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Leadership & Experience</h2>
+                <div class="section-subtitle">Building Teams, Driving Innovation, Creating Impact</div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-date">Apr 2025 - Present</div>
+                            <div class="timeline-status current">Current</div>
+                        </div>
+                        <h3>Vice Chair - Finance</h3>
+                        <h4>IEEE Young Professionals Sri Lanka SLInspire Career Compass Session - Central Province OC
+                        </h4>
+                        <p>Leading financial operations and strategic planning for the Central Province organizing
+                            committee.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Fundraising</span>
+                            <span class="skill-tag">Financial Analysis</span>
+                            <span class="skill-tag">Team Management</span>
+                            <span class="skill-tag">Strategic Planning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-date">Jul 2024 - Present</div>
+                            <div class="timeline-status current">Current</div>
+                        </div>
+                        <h3>Programming Team Member</h3>
+                        <h4>IEEE CS Student Chapter - University of Peradeniya</h4>
+                        <p>Active contributor to programming initiatives, competitions, and technical workshops.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Programming</span>
+                            <span class="skill-tag">Event Management</span>
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Leadership Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-date">Mar 2025 - Present</div>
+                            <div class="timeline-status current">Current</div>
+                        </div>
+                        <h3>Casual Instructor - Database Systems</h3>
+                        <h4>Department of Computer Engineering, University of Peradeniya</h4>
+                        <p>Teaching database concepts, SQL, and data modeling to undergraduate students.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">University Teaching</span>
+                            <span class="skill-tag">Database Design</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Training</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-date">Nov 2024 - Mar 2025</div>
+                        </div>
+                        <h3>Casual Instructor - Programming Methodology</h3>
+                        <h4>University of Peradeniya</h4>
+                        <p>Instructed C programming fundamentals and problem-solving methodologies.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">C Programming</span>
+                            <span class="skill-tag">Classroom Management</span>
+                            <span class="skill-tag">Training</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-date">Jul 2023 - Present</div>
+                            <div class="timeline-status current">Current</div>
+                        </div>
+                        <h3>Team Captain</h3>
+                        <h4>Shooting Sports Association - University of Peradeniya</h4>
+                        <p>Founded and led the university's first rifle shooting team, achieving championship victories.
+                        </p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Team Management</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Sports Excellence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-date">Feb 2023 - Jan 2024</div>
+                        </div>
+                        <h3>Brand Manager & Team Leader</h3>
+                        <h4>AIESEC in Sri Lanka</h4>
+                        <p>Led marketing campaigns and managed international exchange programs.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Marketing</span>
+                            <span class="skill-tag">Brand Building</span>
+                            <span class="skill-tag">Business Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-subtitle">Comprehensive Technology Stack & Professional Skills</div>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item advanced">
+                            <i class="fab fa-react"></i>
+                            <span class="skill-name">React Native</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item advanced">
+                            <i class="fab fa-js-square"></i>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <i class="fab fa-java"></i>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item advanced">
+                            <i class="fab fa-aws"></i>
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item advanced">
+                            <i class="fas fa-database"></i>
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <i class="fas fa-server"></i>
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item advanced">
+                            <i class="fab fa-python"></i>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <i class="fas fa-code"></i>
+                            <span class="skill-name">C</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <i class="fab fa-html5"></i>
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-microchip"></i> Hardware & IoT</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item advanced">
+                            <i class="fas fa-microchip"></i>
+                            <span class="skill-name">Raspberry Pi</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <i class="fas fa-wifi"></i>
+                            <span class="skill-name">ESP32</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item intermediate">
+                            <i class="fas fa-eye"></i>
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-users"></i> Leadership & Soft Skills</h3>
+                    <div class="skills-list">
+                        <div class="soft-skill">Team Management & Leadership</div>
+                        <div class="soft-skill">Project Management</div>
+                        <div class="soft-skill">Communication & Presentation</div>
+                        <div class="soft-skill">Problem Solving & Critical Thinking</div>
+                        <div class="soft-skill">Financial Analysis & Fundraising</div>
+                        <div class="soft-skill">Teaching & Mentoring</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Recognition</h2>
+                <div class="section-subtitle">Excellence in Academics, Competitions & Leadership</div>
+            </div>
+
+            <div class="achievements-grid">
+                <div class="achievement-card academic">
+                    <div class="achievement-icon">🎓</div>
+                    <h3>Academic Excellence</h3>
+                    <div class="achievement-details">
+                        <div class="achievement-item">
+                            <strong>A-Level Results:</strong> 3A's - Combined Math (A), Physics (A), Chemistry (A)
+                        </div>
+                        <div class="achievement-item">
+                            <strong>District Rank:</strong> 242 in Sri Lanka
+                        </div>
+                        <div class="achievement-item">
+                            <strong>O-Level Results:</strong> 9A's across all subjects
+                        </div>
+                        <div class="achievement-item">
+                            <strong>School Recognition:</strong> Best Results Award - Nalanda College
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card sports">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Sports Championships</h3>
+                    <div class="achievement-details">
+                        <div class="achievement-item">
+                            <strong>Air Rifle Championship:</strong> Winner - Inter University Competition 2024
+                        </div>
+                        <div class="achievement-item">
+                            <strong>Magam Shooting Sports:</strong> Colours Insignia Award 2024
+                        </div>
+                        <div class="achievement-item">
+                            <strong>Team Building:</strong> Founded University Rifle Shooting Association
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card programming">
+                    <div class="achievement-icon">💻</div>
+                    <h3>Programming Competitions</h3>
+                    <div class="achievement-details">
+                        <div class="achievement-item">
+                            <strong>Coders V11.0:</strong> 9th Place - ACES Programming Competition
+                        </div>
+                        <div class="achievement-item">
+                            <strong>MoraExtreme 9.0:</strong> 27th Place - IEEE Coding Challenge
+                        </div>
+                        <div class="achievement-item">
+                            <strong>Team Achievement:</strong> Led "Semicolons" team to competitive rankings
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card leadership">
+                    <div class="achievement-icon">🌟</div>
+                    <h3>Leadership Recognition</h3>
+                    <div class="achievement-details">
+                        <div class="achievement-item">
+                            <strong>AIESEC Award:</strong> Best Event Marketer 2024
+                        </div>
+                        <div class="achievement-item">
+                            <strong>IEEE Role:</strong> Vice Chair Finance - Central Province OC
+                        </div>
+                        <div class="achievement-item">
+                            <strong>Teaching Role:</strong> Casual Instructor at University of Peradeniya
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card certifications">
+                    <div class="achievement-icon">📜</div>
+                    <h3>Certifications & Training</h3>
+                    <div class="achievement-details">
+                        <div class="achievement-item">
+                            <strong>IBM:</strong> Linux Commands and Shell Scripting
+                        </div>
+                        <div class="achievement-item">
+                            <strong>NVIDIA:</strong> Introduction to Networking
+                        </div>
+                        <div class="achievement-item">
+                            <strong>University of Colombo:</strong> Computer Applications (Grade A)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card projects">
+                    <div class="achievement-icon">🚀</div>
+                    <h3>Project Milestones</h3>
+                    <div class="achievement-details">
+                        <div class="achievement-item">
+                            <strong>P-E-BO:</strong> 95% emotion recognition accuracy achieved
+                        </div>
+                        <div class="achievement-item">
+                            <strong>Smart Home:</strong> Real-time IoT integration successful
+                        </div>
+                        <div class="achievement-item">
+                            <strong>MONA Dashboard:</strong> 24-machine monitoring system deployed
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="section-card">
-        <div class="container text-center">
-            <div class="card custom-card">
-                <h2 class="section-title">Education</h2>
-                <ul class="list-unstyled">
-                    <li><strong>2022 - Present:</strong> Bachelor of Engineering (BEng) in Computer Engineering,
-                        University of Peradeniya</li>
-                    <li><strong>2021 - 2022:</strong> Certificate in Computer Applications, IHRA University of Colombo
-                    </li>
-                    <li><strong>2007 - 2020:</strong> GCE Advanced Level, Nalanda College Colombo</li>
-                </ul>
+    <section id="education" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Qualifications</h2>
+                <div class="section-subtitle">Academic Journey & Continuous Learning</div>
+            </div>
+
+            <div class="education-timeline">
+                <div class="education-item current">
+                    <div class="education-year">2023 - 2026</div>
+                    <div class="education-content">
+                        <h3>Bachelor of Engineering (BE) - Computer Engineering</h3>
+                        <h4>University of Peradeniya, Sri Lanka</h4>
+                        <p>Final year undergraduate specializing in computer systems, software engineering, and emerging
+                            technologies.</p>
+                        <div class="education-highlights">
+                            <div class="highlight">Student ID: E/20/361</div>
+                            <div class="highlight">Focus: IoT, Networking, AI, Mobile Development</div>
+                            <div class="highlight">Current Role: Programming Team Member - IEEE CS</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-year">2021 - 2022</div>
+                    <div class="education-content">
+                        <h3>Certificate Course in Computer Applications (CCCA)</h3>
+                        <h4>University of Colombo</h4>
+                        <p>Comprehensive computer applications training covering software, hardware, and networking
+                            fundamentals.</p>
+                        <div class="education-highlights">
+                            <div class="highlight">Grade: A</div>
+                            <div class="highlight">Skills: Microsoft Office, Adobe Photoshop, HTML/CSS</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-year">2007 - 2020</div>
+                    <div class="education-content">
+                        <h3>Primary & Secondary Education</h3>
+                        <h4>Nalanda College Colombo</h4>
+                        <p>Comprehensive education with strong focus on mathematics, sciences, and extracurricular
+                            leadership.</p>
+                        <div class="education-highlights">
+                            <div class="highlight">A-Levels: 3A's (District Rank 242)</div>
+                            <div class="highlight">O-Levels: 9A's</div>
+                            <div class="highlight">Leadership: Prefects Guild, Photography Society</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="section-card">
-        <div class="container text-center">
-            <div class="card custom-card">
-                <h2 class="section-title">Experience</h2>
-                <ul class="list-unstyled">
-                    <li><strong>Programming Team Member:</strong> IEEE CS Student Chapter, University of Peradeniya
-                        (July 2024 - Present)</li>
-                    <li><strong>Senior Member:</strong> University Explorers' Club (July 2024 - Present)</li>
-                    <li><strong>Brand Manager:</strong> AIESEC in University of Peradeniya (Dec 2022 - Nov 2023)</li>
-                    <li><strong>Member - photography:</strong> Engineering Students' Media Club (Feb 2023 - Jan 2024)</li>
-                  
-                </ul>
-            </div>
-        </div>
-    </section>
-
-<section id="projects" class="py-5 text-light" style="background: #111;">
-    <div class="container">
-        <h2 class="text-center mb-5" style="font-family: 'Orbitron', sans-serif; color:  #ff9800;    
-    text-shadow: 0 0 10px rgba(255, 152, 0, 0.8);">Projects</h2>
-        <div class="row">
-            <!-- P-E_BO Desk Companion -->
-            <div class="col-md-6 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <h3 class="card-title" style="font-family: 'Roboto', sans-serif; color: #ffd700;">P-E-BO Desk
-                            Companion</h3>
-                        <p class="card-text">An interactive, affordable smart companion device.</p>
-                        <a href="https://cepdnaclk.github.io/e20-3yp-P-E-BO-Desk-Companion/" target="_blank"
-                            class="btn btn-outline-warning mt-3">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- MONA Dashboard -->
-            <div class="col-md-6 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <h3 class="card-title" style="font-family: 'Roboto', sans-serif; color: #ffd700;">MONA Dashboard
-                        </h3>
-                        <p class="card-text">A dashboard for real-time monitoring in manufacturing plants.</p>
-                        <a href="https://projects.ce.pdn.ac.lk/co227/e20/MONA-Dashboard/" target="_blank"
-                            class="btn btn-outline-warning mt-3">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="competitions" class="py-5 text-light" style="background: #000;">
-    <div class="container">
-        <h2 class="text-center mb-5" style="font-family: 'Orbitron', sans-serif; color: #ff9800;">Competitions</h2>
-        <div class="row">
-            <!-- Competition 1 -->
-            <div class="col-md-6 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <h3 class="card-title" style="font-family: 'Roboto', sans-serif; color: #ffd700;">Coders V11
-                        </h3>
-                        <p class="card-text">Achieved <strong>9th Place</strong> in this competitive coding challenge.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Competition 2 -->
-            <div class="col-md-6 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <h3 class="card-title" style="font-family: 'Roboto', sans-serif; color: #ffd700;">MoraExtreme V9
-                        </h3>
-                        <p class="card-text">Secured <strong>27th Place</strong> in one of the toughest coding
-                            competitions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="hobbies" class="py-5 text-light" style="background: #000;">
-    <div class="container">
-        <h2 class="text-center mb-5" style="font-family: 'Orbitron', sans-serif; color:  #ff9800;">Hobbies</h2>
-        <div class="row">
-            <!-- Hobby 1: Graphic Designing -->
-            <div class="col-md-4 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <i class="bi bi-brush" style="font-size: 3rem; color: #ffd700;"></i>
-                        <h3 class="mt-3" style="font-family: 'Roboto', sans-serif; color: #ffd700;">Graphic Designing
-                        </h3>
-                        <p class="card-text">Passionate about creating visually stunning designs using modern tools.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Hobby 2: Video Creating -->
-            <div class="col-md-4 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <i class="bi bi-camera-reels" style="font-size: 3rem; color: #ffd700;"></i>
-                        <h3 class="mt-3" style="font-family: 'Roboto', sans-serif; color: #ffd700;">Video Creating</h3>
-                        <p class="card-text">Enjoy capturing moments and creating engaging videos for storytelling.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Hobby 3: Exploring Technology -->
-            <div class="col-md-4 mb-4">
-                <div class="card bg-dark text-light border-0 shadow-lg h-100">
-                    <div class="card-body text-center">
-                        <i class="bi bi-gear" style="font-size: 3rem; color: #ffd700;"></i>
-                        <h3 class="mt-3" style="font-family: 'Roboto', sans-serif; color: #ffd700;">Exploring Technology
-                        </h3>
-                        <p class="card-text">Dedicated to discovering new technologies and applying them creatively.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 
     <!-- Contact Section -->
-    <section id="contact" class="section-card">
-        <div class="container text-center">
-            <div class="card custom-card">
-                <h2 class="section-title">Contact</h2>
-                <div class="d-flex justify-content-center">
-                    <a href="mailto:yohansenadheera@gmail.com" class="contact-link mx-3" target="_blank" ><i
-                            class="fas fa-envelope"></i></a>
-                    <a href="https://wa.me/94768022347" class="contact-link mx-3" target="_blank"> <i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.linkedin.com/in/yohan-senadheera/" target="_blank" class="contact-link mx-3"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a href="https://facebook.com/yohan.senadheera.7" target="_blank" class="contact-link mx-3"><i
-                            class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/.yokka.?igsh=MWdwcXBnbDJxY2d2eA==" target="_blank" class="contact-link mx-3"><i
-                            class="fab fa-instagram"></i></a>
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect & Collaborate</h2>
+                <div class="section-subtitle">Open for opportunities, projects, and meaningful conversations</div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>
+                        I'm always excited to discuss innovative projects, explore collaboration opportunities,
+                        or simply connect with fellow technology enthusiasts. Whether you're interested in
+                        mobile development, Computer Networking, Cyber Security, IoT solutions, or leadership opportunities, let's start a conversation!
+                    </p>
+                </div>
+
+                <div class="contact-methods">
+                    <div class="contact-grid">
+                        <a href="https://www.linkedin.com/in/yohan-senadheera/" class="contact-card linkedin"
+                            target="_blank" rel="noopener noreferrer">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>LinkedIn</h3>
+                                <p>Professional networking & updates</p>
+                                <span class="contact-link">Connect with me</span>
+                            </div>
+                        </a>
+
+                        <a href="mailto:e20361@eng.pdn.ac.lk" class="contact-card email">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Email</h3>
+                                <p>Direct communication</p>
+                                <span class="contact-link">e20361@eng.pdn.ac.lk</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/yohansenadheera" class="contact-card github" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>GitHub</h3>
+                                <p>Code repositories & projects</p>
+                                <span class="contact-link">View my code</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-card location">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Location</h3>
+                                <p>Based in Sri Lanka</p>
+                                <span class="contact-link">Available for remote work</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-3">
-        <p>&copy; 2025 Yohan Harsha Senadheera. All Rights Reserved.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Yohan Senadheera. All rights reserved.</p>
+                    <p>Crafted with passion for technology and innovation | University of Peradeniya</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/yohan-senadheera/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/yohansenadheera" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:e20361@eng.pdn.ac.lk"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
