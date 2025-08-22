@@ -83,10 +83,10 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 ### 📊 **MONA Dashboard**  
 > *Real-time production monitoring system for 24 manufacturing machines*
 
-**My Role**: Production Progress Tracking, GitHub Management
-- Developed **live analytics dashboard** with goal tracking
+**My Role**: Production Progress and rates Tracking, GitHub Management
+- Developed **live analytics dashboard** with Production Rate tracking
 - Managed **GitHub repositories** and **project documentation**
-- Built **React.js frontend** with **Firebase real-time database**
+- Built **React.js frontend** with **MongoDB real-time database**
 
 ---
 
