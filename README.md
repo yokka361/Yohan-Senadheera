@@ -94,7 +94,7 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 ### **🔥 Current Roles**
 - **Vice Chair Finance** - SL Inspire Career Compass Session (Central Province OC)
-- **Programming Team Member** - IEEE Computer Society PERA University
+- **Programming Team Member** - IEEE Computer Society - University of Peradeniya
 
 ### **📚 Teaching & Mentoring**
 - **Database Instructor** - Teaching database concepts, SQL, and data modeling
