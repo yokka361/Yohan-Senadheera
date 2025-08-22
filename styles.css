@@ -1114,6 +1114,35 @@ h1, h2, h3, h4, .section-title {
   justify-content: center;
 }
 
+.contact-card.facebook::before { 
+  background: #1877F2; 
+}
+
+.contact-card.instagram::before { 
+  background: linear-gradient(45deg, #E4405F, #F77737, #FCCC63, #8B3F99); 
+}
+
+/* Update the existing contact grid for better layout with 6 items */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Mobile optimization for 6 contact cards */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .footer-social a:hover {
   color: #ffd700;
   transform: translateY(-3px);
