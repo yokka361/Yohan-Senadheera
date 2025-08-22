@@ -8,7 +8,7 @@
 [![Student ID](https://img.shields.io/badge/Student%20ID-E%2F20%2F361-blue?style=for-the-badge)](https://eng.pdn.ac.lk)
 [![Year](https://img.shields.io/badge/Year-Third%20Year-green?style=for-the-badge)](https://eng.pdn.ac.lk)
 
-**🚀 Passionate about Computer Networking • IoT • AI • Mobile Development • Robotics**
+**🚀 Passionate about Computer Networking • IoT • AI • Mobile & Web Development • Robotics**
 
 </div>
 
@@ -18,7 +18,7 @@
 
 I'm a dedicated **third-year Computer Engineering undergraduate** at the **University of Peradeniya**, Sri Lanka, with a strong foundation in programming, problem-solving, and innovative software development.
 
-My journey spans across **mobile app development**, **IoT systems**, **cloud architecture**, and **AI-powered solutions**. I believe in creating technology that bridges the gap between human needs and digital possibilities.
+My journey spans across **Computer Networking**, **Web Development**, **mobile app development**, **IoT systems**, **cloud architecture**, and **AI-powered solutions**. I believe in creating technology that bridges the gap between human needs and digital possibilities.
 
 ### 🎯 What I'm passionate about:
 - 🤖 **Creating cutting-edge solutions** that solve real-world problems
