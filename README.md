@@ -111,11 +111,11 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 <div align="center">
 
-![Yohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=ff9800&text_color=ffffff&icon_color=ff9800)
+![Yohan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yokka361&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=ff9800&text_color=ffffff&icon_color=ff9800)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=ff9800&text_color=ffffff)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yokka361&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=ff9800&text_color=ffffff)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&hide_border=true&background=0D1117&stroke=ff9800&ring=ff9800&fire=ff9800&currStreakLabel=ffffff)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yokka361&theme=radical&hide_border=true&background=0D1117&stroke=ff9800&ring=ff9800&fire=ff9800&currStreakLabel=ffffff)
 
 </div>
 
@@ -167,13 +167,13 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 **🌟 Always excited to discuss innovative projects and collaboration opportunities! 🌟**
 
-[![Email](https://img.shields.io/badge/Email-e20361@eng.pdn.ac.lk-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:e20361@eng.pdn.ac.lk)
+[![Email](https://img.shields.io/badge/Email-yohansenadheera@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yohansenadheera@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yohan-senadheera)
-[![Website](https://img.shields.io/badge/Portfolio-Visit-ff9800?style=for-the-badge&logo=web&logoColor=white)](https://yourusername.github.io/personal-website)
+[![Website](https://img.shields.io/badge/Portfolio-Visit-ff9800?style=for-the-badge&logo=web&logoColor=white)]([https://yourusername.github.io/personal-website](https://yokka361.github.io/Yohan-Senadheera/))
 
 **📍 Based in Sri Lanka | Available for remote work**
 
-*Whether you're interested in mobile development, Computer Networking, Cyber Security, IoT solutions, or leadership opportunities, let's start a conversation!*
+*Whether you're interested in mobile & Web development, Computer Networking, Cyber Security, IoT solutions, or leadership opportunities, let's start a conversation!*
 
 </div>
 
@@ -182,6 +182,9 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 ## 🎯 Fun Facts About Me
 
 - 🎯 **Rifle Shooting Enthusiast** - Founded and led university team to championships
+- 🌐 **Network Simulation Geek** - Love experimenting with virtual network topologies and testing routing protocols in simulation environments
+- ☁️ **Cloud Architecture Explorer** - Fascinated by designing scalable cloud applications and optimizing serverless architectures  
+- 🔧 **DevOps Practitioner** - Enjoy learning, building CI/CD pipelines, and automating deployment workflows
 - 🤖 **Tech Innovator** - Love building robots and IoT devices  
 - 👨‍🏫 **Natural Teacher** - Enjoy mentoring and teaching programming
 - 🌍 **Global Mindset** - Experience with international exchange programs
