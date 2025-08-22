@@ -199,7 +199,7 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 **Built with ❤️ by Yohan Senadheera**
 
-*University of Peradeniya | Computer Engineering | E/20/361*
+*University of Peradeniya | Computer Engineering*
 
 **⭐ Star my repositories if you find them helpful!**
 
