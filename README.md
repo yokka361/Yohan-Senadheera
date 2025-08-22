@@ -8,7 +8,7 @@
 [![Student ID](https://img.shields.io/badge/Student%20ID-E%2F20%2F361-blue?style=for-the-badge)](https://eng.pdn.ac.lk)
 [![Year](https://img.shields.io/badge/Year-Third%20Year-green?style=for-the-badge)](https://eng.pdn.ac.lk)
 
-**🚀 Passionate about IoT • AI • Mobile Development • Robotics**
+**🚀 Passionate about Computer Networking • IoT • AI • Mobile Development • Robotics**
 
 </div>
 
