@@ -117,17 +117,26 @@ class Navigation {
     }
 
     setupSmoothScroll() {
-        $$('a[href^="#"]').forEach((anchor) => {
-            anchor.addEventListener("click", (e) => {
-                e.preventDefault();
-                const target = $(anchor.getAttribute("href"));
-                if (target) {
-                    const offset = this.navbar ? this.navbar.offsetHeight + 20 : 20;
-                    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-                    window.scrollTo({ top, behavior: "smooth" });
-                }
-            });
+      $$('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = $(anchor.getAttribute("href"));
+          if (target) {
+            const offset = this.navbar ? this.navbar.offsetHeight + 20 : 20;
+            const top =
+              target.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top, behavior: "smooth" });
+          }
         });
+      });
+      // Light hero lift on scroll start
+      let heroLiftApplied = false;
+      window.addEventListener("scroll", () => {
+        if (!heroLiftApplied && window.scrollY > 20) {
+          document.body.classList.add("scrolled-hero");
+          heroLiftApplied = true;
+        }
+      });
     }
 }
 
@@ -211,7 +220,8 @@ class Animations {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const statNumbers = $$(".stat-number");
-            const targets = [5, 3, 15]; // Match your stats
+            const targets = [6, 4, 18]; // Projects, Leadership, Technologies
+            // Match your stats
 
             statNumbers.forEach((stat, index) => {
               setTimeout(() => {
@@ -262,7 +272,7 @@ class Animations {
       const texts = [
         "I'm Yohan Senadheera",
         "Computer Engineering Student",
-        "IoT & AI Enthusiast",
+        "Networking, IoT & AI Enthusiast",
         "Full-Stack Developer",
       ];
 

@@ -175,6 +175,7 @@ h1, h2, h3, h4, .section-title {
   width: 100%;
   z-index: 1000;
   padding: 1rem 0;
+  align-items: right;
   border-bottom: 1px solid rgba(255,255,255,.08);
   transition: all 0.3s ease;
 }
@@ -276,85 +277,68 @@ h1, h2, h3, h4, .section-title {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Hero Section */
+/* Hero Section - consolidated and dark glassy */
 #hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  background: linear-gradient(135deg, rgba(0, 8, 20, .85), rgba(0, 12, 28, .65));
+  background: linear-gradient(135deg, rgba(0, 6, 18, 0.95), rgba(0, 12, 28, 0.9));
   overflow: hidden;
 }
-/* Enhanced Hero Section with Blurred Dark Background */
-#hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background: linear-gradient(135deg, rgba(0, 8, 20, .95), rgba(0, 12, 28, .85));
-    overflow: hidden;
-}
-
 #hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(1200px 800px at 20% -10%, rgba(56,189,248,.05), transparent 60%),
-        radial-gradient(900px 600px at 110% 10%, rgba(167,139,250,.05), transparent 60%),
-        repeating-linear-gradient(to right, rgba(255,255,255,.02) 0 1px, transparent 1px 120px),
-        repeating-linear-gradient(to bottom, rgba(255,255,255,.01) 0 1px, transparent 1px 120px);
-    backdrop-filter: blur(15px) saturate(150%);
-    -webkit-backdrop-filter: blur(15px) saturate(150%);
-    z-index: 0;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(1200px 800px at 20% -10%, rgba(56,189,248,.06), transparent 60%),
+    radial-gradient(900px 600px at 110% 10%, rgba(167,139,250,.06), transparent 60%),
+    repeating-linear-gradient(to right, rgba(255,255,255,.03) 0 1px, transparent 1px 120px),
+    repeating-linear-gradient(to bottom, rgba(255,255,255,.02) 0 1px, transparent 1px 120px);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  z-index: 0;
+  pointer-events: none;
 }
-
 #hero::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 8, 20, 0.6); /* Additional dark overlay */
-    z-index: 1;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 8, 20, 0.45), rgba(0, 8, 20, 0.55));
+  z-index: 1;
+  pointer-events: none;
 }
+.hero-content { position: relative; z-index: 2; text-align: center; max-width: 900px; padding: 2rem 1rem; width: 100%; }
+.hero-particles { position: absolute; width: 100%; height: 100%; background: none; filter: blur(2px) saturate(120%); animation: float 20s linear infinite; z-index: 0; }
 
-.hero-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    max-width: 900px;
-    padding: 2rem 1rem;
-    width: 100%;
-}
+/* Hero avatar glass card */
+.hero-avatar { width: clamp(140px, 18vw, 220px); height: clamp(140px, 18vw, 220px); margin: 1.25rem auto 1.75rem; border-radius: 24px; padding: 8px; display: grid; place-items: center; }
+.hero-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 18px; box-shadow: 0 12px 40px rgba(2,132,199,.25); }
 
-.hero-particles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: none;
-    filter: blur(2px) saturate(120%);
-    animation: float 20s linear infinite;
-    z-index: 0;
-}
 
 /* Typewriter Effect */
 #typewriter {
-    display: inline-block;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
-    font-size: clamp(2.5rem, 8vw, 5rem);
-    background: var(--gradient-3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    border-right: 4px solid var(--primary);
-    animation: blink-caret 1s step-end infinite;
-    min-height: 1.2em;
-    line-height: 1.2;
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  background: var(--gradient-3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-right: 4px solid var(--primary);
+  animation: blink-caret 1s step-end infinite;
+  min-height: 1.2em;
+  line-height: 1.1;
 }
+
+@media (max-width: 480px) {
+  #typewriter {
+    font-size: clamp(1.8rem, 7vw, 2.6rem);
+  }
+}
+
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
@@ -436,6 +420,135 @@ h1, h2, h3, h4, .section-title {
   color: var(--primary);
   margin-bottom: 2rem;
   font-weight: 500;
+}
+/* 1) Gradient ring around avatar */
+.hero-avatar {
+  position: relative;
+  isolation: isolate;
+}
+.hero-avatar::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 28px;
+  background: conic-gradient(from 0deg,
+    rgba(56,189,248,.0) 0%,
+    rgba(56,189,248,.85) 20%,
+    rgba(167,139,250,.85) 40%,
+    rgba(6,182,212,.85) 60%,
+    rgba(56,189,248,.85) 80%,
+    rgba(56,189,248,.0) 100%);
+  filter: blur(10px) saturate(140%);
+  animation: orbit 6s linear infinite;
+  z-index: -1;
+  opacity: .55;
+}
+@keyframes orbit { to { transform: rotate(360deg); } }
+
+/* 2) Soft film grain for depth (very light) */
+#hero::after {
+  background:
+    linear-gradient(180deg, rgba(0, 8, 20, 0.45), rgba(0, 8, 20, 0.55)),
+    url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><filter id=\"n\"><feTurbulence baseFrequency=\"0.8\" numOctaves=\"2\" stitchTiles=\"stitch\"/></filter><rect width=\"120\" height=\"120\" filter=\"url(%23n)\" opacity=\"0.03\"/></svg>') repeat;
+  background-size: auto, 160px 160px;
+  mix-blend-mode: overlay;
+}
+
+/* 3) Slow moving accent lines */
+.hero-accent-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  mask: linear-gradient(#000, transparent 85%);
+  -webkit-mask: linear-gradient(#000, transparent 85%);
+}
+.hero-accent-lines::before,
+.hero-accent-lines::after {
+  content: "";
+  position: absolute;
+  width: 140%;
+  height: 2px;
+  left: -20%;
+  background: linear-gradient(90deg, transparent, rgba(56,189,248,.55), rgba(167,139,250,.55), transparent);
+  filter: drop-shadow(0 0 12px rgba(56,189,248,.35));
+  animation: slideLine 12s linear infinite;
+}
+.hero-accent-lines::after { top: 30%; animation-delay: -6s; opacity: .6; }
+.hero-accent-lines::before { top: 65%; opacity: .35; }
+@keyframes slideLine { 0% { transform: translateX(-10%);} 100%{ transform: translateX(10%);} }
+
+/* 4) Typewriter glow pulse */
+#typewriter {
+  text-shadow:
+    0 0 10px rgba(56,189,248,.25),
+    0 0 22px rgba(96,165,250,.18);
+  position: relative;
+}
+#typewriter::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: clamp(120px, 36vw, 360px);
+  height: 3px;
+  background: linear-gradient(90deg, rgba(56,189,248,.0), rgba(56,189,248,.85), rgba(167,139,250,.85), rgba(56,189,248,.0));
+  border-radius: 2px;
+  filter: drop-shadow(0 0 10px rgba(56,189,248,.5));
+  opacity: .75;
+  animation: glowLine 2.4s ease-in-out infinite;
+}
+@keyframes glowLine { 0%,100%{opacity:.25} 50%{opacity:.85} }
+
+/* 5) Compact quick badges row */
+.hero-badges {
+  display: inline-flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: .75rem auto 0;
+}
+.hero-badge {
+  background: rgba(56,189,248,.08);
+  border: 1px solid rgba(56,189,248,.35);
+  color: var(--text-1);
+  padding: .35rem .75rem;
+  border-radius: 999px;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .2px;
+  transition: transform .25s ease, background .25s ease, box-shadow .25s ease;
+}
+.hero-badge:hover {
+  transform: translateY(-2px);
+  background: rgba(56,189,248,.14);
+  box-shadow: 0 8px 20px rgba(56,189,248,.15);
+}
+
+/* 6) CTA hover lift + ripple sheen */
+.btn-primary, .btn-secondary {
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::after, .btn-secondary::after {
+  content: "";
+  position: absolute;
+  inset: 0% -120% 0% -120%;
+  background: radial-gradient(120px 60px at var(--mx, -20%) 50%, rgba(255,255,255,.35), transparent 60%);
+  transform: translateX(-100%);
+  transition: transform .6s ease;
+  opacity: .25;
+  pointer-events: none;
+}
+.btn-primary:hover::after, .btn-secondary:hover::after {
+  transform: translateX(0%);
+}
+
+/* 7) Subtle parallax lift on scroll */
+@media (min-width: 768px) {
+  .hero-content { transform: translateY(0); transition: transform .5s ease; }
+  body.scrolled-hero .hero-content { transform: translateY(-6px); }
 }
 
 .hero-description {
