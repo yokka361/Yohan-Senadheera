@@ -16,7 +16,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm a dedicated **third-year Computer Engineering undergraduate** at the **University of Peradeniya**, Sri Lanka, with a strong foundation in programming, problem-solving, and innovative software development.
+I'm a dedicated **final-year Computer Engineering undergraduate** at the **University of Peradeniya**, Sri Lanka, with a strong foundation in programming, problem-solving, and innovative software development.
 
 My journey spans across **Computer Networking**, **Web Development**, **mobile app development**, **IoT systems**, **cloud architecture**, and **AI-powered solutions**. I believe in creating technology that bridges the gap between human needs and digital possibilities.
 
@@ -92,9 +92,10 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 ## 🎖️ Leadership & Experience
 
-### **🔥 Current Roles**
+### **🔥 Current and Completed Roles**
+- **Editor** — Hackers' Club, University of Peradeniya (Aug 2025 – Present)
+- **Programming Team Member** — IEEE Computer Society, UoP (Jul 2024 – Present) 
 - **Vice Chair Finance** - SL Inspire Career Compass Session (Central Province OC)
-- **Programming Team Member** - IEEE Computer Society - University of Peradeniya
 
 ### **📚 Teaching & Mentoring**
 - **Database Instructor** - Teaching database concepts, SQL, and data modeling
@@ -127,6 +128,14 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 - **University of Peradeniya** - Computer Engineering Program (2023-2026)
 - Strong foundation in **mathematics, sciences, and engineering principles**
 - **CCNA Certificate** - Computer applications training
+
+### 🪪 Licenses & Certifications
+- Qualcomm — 5G for Everyone (Coursera) • Credential ID: XXH6KR28PR9B • [Show credential](https://www.coursera.org/account/accomplishments/verify/XXH6KR28PR9B)  
+  Skills: 5G, mmWave, Telecommunications, Networking, Wireless, NGN [1]
+- IBM — Hands-on Introduction to Linux Commands & Shell Scripting (Coursera) • Credential ID: IO0S8AO95PM9 • [Show credential](https://www.coursera.org/account/accomplishments/verify/IO0S8AO95PM9)  
+  Skills: Linux, Shell Scripting, Computer Networking [1]
+- NVIDIA — Introduction to Networking (Coursera) • Credential ID: WGWSCY8QVK2C • [Show credential](https://www.coursera.org/account/accomplishments/records/WGWSCY8QVK2C)  
+  Skills: Computer Networking, Network Design [1]
 
 ### **🏅 Sports & Extracurricular**
 - **Founded** university's first rifle shooting team
