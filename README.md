@@ -130,12 +130,12 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 - **CCNA Certificate** - Computer applications training
 
 ### 🪪 Licenses & Certifications
-- Qualcomm — 5G for Everyone (Coursera) • Credential ID: XXH6KR28PR9B • [Show credential](https://www.coursera.org/account/accomplishments/verify/XXH6KR28PR9B)  
-  Skills: 5G, mmWave, Telecommunications, Networking, Wireless, NGN [1]
-- IBM — Hands-on Introduction to Linux Commands & Shell Scripting (Coursera) • Credential ID: IO0S8AO95PM9 • [Show credential](https://www.coursera.org/account/accomplishments/verify/IO0S8AO95PM9)  
-  Skills: Linux, Shell Scripting, Computer Networking [1]
-- NVIDIA — Introduction to Networking (Coursera) • Credential ID: WGWSCY8QVK2C • [Show credential](https://www.coursera.org/account/accomplishments/records/WGWSCY8QVK2C)  
-  Skills: Computer Networking, Network Design [1]
+- Qualcomm — 5G for Everyone (Coursera)
+  Skills: 5G, mmWave, Telecommunications, Networking, Wireless, NGN 
+- IBM — Hands-on Introduction to Linux Commands & Shell Scripting (Coursera) 
+  Skills: Linux, Shell Scripting, Computer Networking 
+- NVIDIA — Introduction to Networking (Coursera)
+  Skills: Computer Networking, Network Design
 
 ### **🏅 Sports & Extracurricular**
 - **Founded** university's first rifle shooting team
@@ -178,7 +178,7 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 [![Email](https://img.shields.io/badge/Email-yohansenadheera@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yohansenadheera@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yohan-senadheera)
-[![Website](https://img.shields.io/badge/Portfolio-Visit-ff9800?style=for-the-badge&logo=web&logoColor=white)]([https://yourusername.github.io/personal-website](https://yokka361.github.io/Yohan-Senadheera/))
+[![Website](https://img.shields.io/badge/Portfolio-Visit-ff9800?style=for-the-badge&logo=web&logoColor=white)](https://yokka361.github.io/Yohan-Senadheera/))
 
 **📍 Based in Sri Lanka | Available for remote work**
 
