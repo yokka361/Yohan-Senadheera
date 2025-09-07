@@ -178,7 +178,7 @@ My journey spans across **Computer Networking**, **Web Development**, **mobile a
 
 [![Email](https://img.shields.io/badge/Email-yohansenadheera@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yohansenadheera@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yohan-senadheera)
-[![Website](https://img.shields.io/badge/Portfolio-Visit-ff9800?style=for-the-badge&logo=web&logoColor=white)](https://yokka361.github.io/Yohan-Senadheera/))
+[![Website](https://img.shields.io/badge/Portfolio-Visit-ff9800?style=for-the-badge&logo=web&logoColor=white)](https://yokka361.github.io/Yohan-Senadheera/)
 
 **📍 Based in Sri Lanka | Available for remote work**
 
